@@ -1,0 +1,11 @@
+{
+  "title": "Quake",
+  "args": [],
+  "dirs": [
+    "id1"
+  ],
+  "files": [
+    "id1/pak0.pak",
+    "id1/pak1.pak"
+  ]
+}

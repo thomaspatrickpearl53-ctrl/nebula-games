@@ -1,0 +1,55 @@
+{
+  "games": [
+    {
+      "id": "doom",
+      "title": "DOOM",
+      "description": "id Software's DOOM (shareware episode) via doomgeneric, with sound effects and OPL music.",
+      "path": "doom",
+      "size": 4712305,
+      "version": "2026-11-09",
+      "files": [
+        "game.json",
+        "game.wasm",
+        "files/doom1.wad"
+      ]
+    },
+    {
+      "id": "quake",
+      "title": "Quake",
+      "description": "id Software's Quake via quakegeneric: software renderer, sound, mouse-look. pak0 + pak1.",
+      "path": "quake",
+      "size": 53417872,
+      "version": "2026-11-09",
+      "files": [
+        "game.json",
+        "game.wasm",
+        "files/id1/pak0.pak",
+        "files/id1/pak1.pak"
+      ]
+    },
+    {
+      "id": "craft",
+      "title": "Craft",
+      "description": "Michael Fogleman's Craft: a block-building sandbox on the GPU (WebGL2). Saves your world.",
+      "path": "craft",
+      "size": 360518,
+      "version": "2026-11-09",
+      "files": [
+        "game.json",
+        "game.wasm",
+        "files/shaders/block_fragment.glsl",
+        "files/shaders/block_vertex.glsl",
+        "files/shaders/line_fragment.glsl",
+        "files/shaders/line_vertex.glsl",
+        "files/shaders/sky_fragment.glsl",
+        "files/shaders/sky_vertex.glsl",
+        "files/shaders/text_fragment.glsl",
+        "files/shaders/text_vertex.glsl",
+        "files/textures/font.png",
+        "files/textures/sign.png",
+        "files/textures/sky.png",
+        "files/textures/texture.png"
+      ]
+    }
+  ]
+}

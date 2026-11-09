@@ -1,0 +1,22 @@
+{
+  "title": "Craft",
+  "args": [],
+  "dirs": [
+    "shaders",
+    "textures"
+  ],
+  "files": [
+    "shaders/block_fragment.glsl",
+    "shaders/block_vertex.glsl",
+    "shaders/line_fragment.glsl",
+    "shaders/line_vertex.glsl",
+    "shaders/sky_fragment.glsl",
+    "shaders/sky_vertex.glsl",
+    "shaders/text_fragment.glsl",
+    "shaders/text_vertex.glsl",
+    "textures/font.png",
+    "textures/sign.png",
+    "textures/sky.png",
+    "textures/texture.png"
+  ]
+}
