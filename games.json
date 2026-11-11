@@ -56,8 +56,8 @@
       "title": "Half-Life (Quake-HL)",
       "description": "Half-Life on the Quake engine (quake-hl): SDK 2.3 game and client libraries, WebGL2. The tram ride, Anomalous Materials and Unforeseen Consequences.",
       "path": "quake-hl",
-      "size": 213545142,
-      "version": "2026-11-10b",
+      "size": 213545677,
+      "version": "2026-11-10c",
       "files": [
         "game.json",
         "game.wasm",
