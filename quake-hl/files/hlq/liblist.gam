@@ -1,0 +1,5 @@
+// quake-hl game folder: Half-Life content from ../valve, our own build of the SDK 2.3 game library
+game "Half-Life"
+fallback_dir "valve"
+gamedll "dlls\\hl.dll"
+gamedll_linux "dlls/hl.so"

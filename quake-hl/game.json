@@ -1,0 +1,21 @@
+{
+  "title": "Half-Life (Quake-HL)",
+  "args": [
+    "+map",
+    "c1a0"
+  ],
+  "dirs": [
+    "id1",
+    "valve",
+    "hlq"
+  ],
+  "files": [
+    "hlq/liblist.gam",
+    "id1/pak0.pak",
+    "valve/pak0.pak",
+    "valve/pak1.pak",
+    "valve/pak2.pak",
+    "valve/pak3.pak",
+    "valve/pak4.pak"
+  ]
+}
