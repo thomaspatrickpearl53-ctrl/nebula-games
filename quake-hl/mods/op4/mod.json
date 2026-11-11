@@ -1,0 +1,6 @@
+{
+  "title": "Half-Life: Opposing Force (Quake-HL)",
+  "args": ["-hlgame", "op4", "+map", "of0a0"],
+  "dirs": ["op4"],
+  "remove": []
+}

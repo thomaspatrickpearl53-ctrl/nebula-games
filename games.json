@@ -92,6 +92,26 @@
             "files/bshift/pak2.pak",
             "files/valve/pak9.pak"
           ]
+        },
+        {
+          "id": "op4",
+          "title": "Half-Life: Opposing Force",
+          "description": "Adrian Shephard's side of Black Mesa, on the Quake-HL engine: Opposing Force Updated's game and client code (the newer Half-Life SDK) and the CD's data. Campaign, boot camp and multiplayer maps.",
+          "path": "quake-hl/mods/op4",
+          "icon": "icon.png",
+          "banner": "banner.jpg",
+          "size": 191217687,
+          "version": "2026-11-11a",
+          "files": [
+            "mod.json",
+            "game.wasm",
+            "files/op4/liblist.gam",
+            "files/op4/pak0.pak",
+            "files/op4/pak1.pak",
+            "files/op4/pak2.pak",
+            "files/op4/pak3.pak",
+            "files/valve/pak9.pak"
+          ]
         }
       ]
     }

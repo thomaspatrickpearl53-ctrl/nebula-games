@@ -8,7 +8,7 @@ Open the **Game Library** on the desktop, paste a read-only GitHub token once, a
 | DOOM | `doom/` | doomgeneric + `examples/doomgeneric_nebula.c` and `examples/doom-music/` in nebula-c (GPL) |
 | Quake | `quake/` | `examples/quake/` in nebula-c (quakegeneric, GPL) |
 | Craft | `craft/` | `examples/craft/` in nebula-c (MIT) |
-| Half-Life (Quake-HL) | `quake-hl/` (mod: Blue Shift in `quake-hl/mods/bshift/`) | `~/quake-hl` (`nebula/make_nebula.py`, then `nebula/check_build.mjs`); Quake engine GPL, SDK 2.3 under Valve's SDK license, data from your Steam Half-Life |
+| Half-Life (Quake-HL) | `quake-hl/` (mods: Blue Shift in `quake-hl/mods/bshift/`, Opposing Force in `quake-hl/mods/op4/`) | `~/quake-hl` (`nebula/make_nebula.py`, then `nebula/check_build.mjs`); Quake engine GPL, SDK 2.3 under Valve's SDK license, data from your Steam Half-Life |
 
 Each game folder: `game.json` (title, arguments, file list), `game.wasm`, `files/` (game data).
 `games.json` lists the games for the library app. This repo is private because `quake/files/id1/pak1.pak` is the
@@ -17,6 +17,8 @@ full (registered) Quake data and `quake-hl/files/valve/` is Half-Life's — keep
 Mods: `quake-hl/mods/bshift/` is Half-Life: Blue Shift for Quake-HL (`~/quake-hl`: `tools/install_bshift.py` from
 the CD, then `nebula/make_nebula.py --game bshift --mod-base ~/Documents/nebula-games/quake-hl/files` and
 `nebula/check_build.mjs`). Blue Shift's game code is Blue Shift Updated (twhl-community) ported to SDK 2.3.
+`quake-hl/mods/op4/` is Opposing Force: Opposing Force Updated (twhl-community, the newer Half-Life SDK) built
+unchanged against quake-hl's engine (`tools/install_op4.py`, then `make_nebula.py --game op4 --mod-base ...`).
 
 ## Icons, banners and mods
 In `games.json`, a game can have:
