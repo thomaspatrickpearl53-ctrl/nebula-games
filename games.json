@@ -11,7 +11,8 @@
         "game.json",
         "game.wasm",
         "files/doom1.wad"
-      ]
+      ],
+      "banner": "banner.jpg"
     },
     {
       "id": "quake",
@@ -25,7 +26,8 @@
         "game.wasm",
         "files/id1/pak0.pak",
         "files/id1/pak1.pak"
-      ]
+      ],
+      "banner": "banner.png"
     },
     {
       "id": "craft",
@@ -68,6 +70,29 @@
         "files/valve/pak2.pak",
         "files/valve/pak3.pak",
         "files/valve/pak4.pak"
+      ],
+      "icon": "icon.png",
+      "banner": "banner.png",
+      "mods": [
+        {
+          "id": "bshift",
+          "title": "Half-Life: Blue Shift",
+          "description": "Barney's side of Black Mesa, on the Quake-HL engine: Blue Shift's own game code (from Blue Shift Updated, ported to SDK 2.3) and its CD data. All 37 maps.",
+          "path": "quake-hl/mods/bshift",
+          "icon": "icon.png",
+          "banner": "banner.jpg",
+          "size": 111191449,
+          "version": "2026-11-11c",
+          "files": [
+            "mod.json",
+            "game.wasm",
+            "files/bshift/liblist.gam",
+            "files/bshift/pak0.pak",
+            "files/bshift/pak1.pak",
+            "files/bshift/pak2.pak",
+            "files/valve/pak9.pak"
+          ]
+        }
       ]
     }
   ]

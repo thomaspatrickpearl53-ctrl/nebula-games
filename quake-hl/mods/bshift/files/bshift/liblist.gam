@@ -1,0 +1,8 @@
+// quake-hl game folder: Half-Life: Blue Shift's data (from the CD) on top of ../valve,
+// with our own build of the Blue Shift game library (sdk, GAME=bshift)
+game "Half-Life: Blue Shift"
+startmap "ba_tram1"
+trainmap "ba_hazard1"
+fallback_dir "valve"
+gamedll "dlls\\hl.dll"
+gamedll_linux "dlls/hl.so"

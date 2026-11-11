@@ -1,0 +1,6 @@
+{
+  "title": "Half-Life: Blue Shift (Quake-HL)",
+  "args": ["-hlgame", "bshift", "+map", "ba_tram1"],
+  "dirs": ["bshift"],
+  "remove": []
+}
